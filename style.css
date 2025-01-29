@@ -1,5 +1,6 @@
-p{
-    color: burlywood;
+body{
+    margin: 0px;
+    padding: 0px;
 }
 .nav{
     background-color: #2a2849;
@@ -64,7 +65,19 @@ p{
 }
 .dropdown ul li a:hover {
     background-color: #f0f0f0;
-    color: #b4a7a2;
+    color: #968e8b;
     text-decoration: none;
     transition: background-color 0.5s ease;
+}
+.main{
+
+    background-color: #f7f7f7;
+    margin-top: 60px;
+    text-align: center;
+}
+.main h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding: 5px;
+    color:#2a2849;
 }
